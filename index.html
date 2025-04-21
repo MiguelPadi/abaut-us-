@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Start - María José y Miguel</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background: #f5f5f5;
+    }
+    .main-container {
+      margin-top: 70px;
+    }
+    .profile-section {
+      padding: 40px 0;
+    }
+    .card {
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    .card-img-top {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      object-fit: cover;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Start</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="mariajose.html">Maria Jose</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="miguel.html">Miguel Angel Padilla</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="github.html">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="container main-container">
+    <div class="profile-section text-center">
+      <h1 class="display-5">Welcome to our site</h1>
+      <p class="lead">Here you will find information about María José and Miguel Ángel.</p>
+    </div>
+
+    <!-- CARDS -->
+    <div class="row justify-content-center g-4">
+      <!-- Card María José -->
+      <div class="col-sm-6 col-lg-5">
+        <div class="card h-100 shadow-sm">
+          <img src="fot3.jpg" class="card-img-top" alt="María José">
+          <div class="card-body text-center">
+            <h5 class="card-title">María José Pérez Montenegro</h5>
+            <p class="card-text">Systems Engineering student, proactive and eager to learn.</p>
+            <a href="mariajose.html" class="btn btn-primary">Ver Perfil</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card Miguel Ángel -->
+      <div class="col-sm-6 col-lg-5">
+        <div class="card h-100 shadow-sm">
+          <img src="coder2.png" class="card-img-top" alt="Miguel Ángel">
+          <div class="card-body text-center">
+            <h5 class="card-title">Miguel Ángel Padilla Peralta</h5>
+            <p class="card-text">Passionate about software development and automation.</p>
+            <a href="miguel.html" class="btn btn-primary">Ver Perfil</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b1ecfa;
+  color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+}
+
+/* Suavidad al desplazarse */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Imágenes adaptables */
+.img-responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Centrado de contenido */
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caja de contenido */
+.content-box {
+  background-color: #b1ecfa;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.content-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.content-box h4 {
+  font-size: 1.8rem;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+.content-box p {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+/* Secciones con colores personalizados */
+#about {
+  background-color: #b1ecfa;
+  border: 1px solid #b1ecfa;
+}
+
+#contact {
+  background-color: #b1ecfa;
+  border: 1px solid #b1ecfa;
+}
+
+#project {
+  background-color: #b1ecfa;
+  border: 1px solid #b1ecfa;
+}
+
+/* Íconos destacados */
+.icon-box {
+  font-size: 18px;
+  color: #b1ecfa;
+  background-color: #6c63ff;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.icon-box:hover {
+  background-color: #574fdb;
+}
+
+/* Enlaces del navbar */
+.navbar .navbar-brand {
+  color: #b1ecfa !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+  color: #b1ecfa !important;
+}
+
+/* Perfil */
+.profile-section { 
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(5, 131, 140, 0.1);
+}
+
+.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  object-fit: cover;
+  height: 200px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
